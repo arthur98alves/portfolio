@@ -25,7 +25,7 @@ function typeEffect() {
     if (index < text.length) {
         typingElement.textContent += text.charAt(index);
         index++;
-        setTimeout(typeEffect, 90);
+        setTimeout(typeEffect, 0);
     }
 }
 
