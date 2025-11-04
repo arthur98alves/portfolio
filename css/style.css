@@ -31,7 +31,7 @@ header {
 
 header h1 {
     font-weight: 600;
-    color: #4ea8de;
+    color: #174e97;
     letter-spacing: 1px;
 }
 
@@ -49,11 +49,11 @@ nav a {
 }
 
 nav a:hover {
-    color: #4ea8de;
+    color: #174e97;
 }
 
 .btn-cv {
-    background-color: #4ea8de;
+    background-color: #174e97;
     color: #fff;
     padding: 10px 18px;
     border-radius: 25px;
@@ -87,8 +87,8 @@ nav a:hover {
 
 .foto-perfil {
     width: 250px;
-    border-radius: 50%;
-    border: 3px solid #4ea8de;
+    border-radius: 80%;
+    border: 3px solid #174e97;
     box-shadow: 0 0 20px rgba(78, 168, 222, 0.2);
     transition: transform 0.4s ease;
 }
@@ -102,7 +102,7 @@ nav a:hover {
 }
 
 .sobre-texto h2 {
-    color: #4ea8de;
+    color: #174e97;
     margin-bottom: 20px;
     font-size: 1.8rem;
 }
@@ -121,7 +121,7 @@ nav a:hover {
 }
 
 .projetos h2 {
-    color: #4ea8de;
+    color: #174e97;
     margin-bottom: 40px;
     font-size: 1.8rem;
 }
@@ -175,7 +175,7 @@ nav a:hover {
 }
 
 .contato h2 {
-    color: #4ea8de;
+    color: #174e97;
     margin-bottom: 30px;
     font-size: 1.8rem;
 }
@@ -190,7 +190,7 @@ nav a:hover {
 }
 
 .icones a:hover {
-    color: #4ea8de;
+    color: #174e97;
     text-shadow: 0 0 8px rgba(78,168,222,0.4);
 }
 
@@ -296,14 +296,15 @@ footer {
 }
 
 #typing {
-    border-right: 3px solid #4ea8de;
+    border-right: 3px solid #174e97;
     padding-right: 5px;
-    animation: blink 0.7s infinite;
+    animation: blink 0.7s none;
     white-space: nowrap;
     overflow: hidden;
 }
 
 @keyframes blink {
     0%, 50%, 100% { border-color: transparent; }
-    25%, 75% { border-color: #4ea8de; }
+    25%, 75% { border-color: #174e97; }
 }
+
